@@ -17,3 +17,23 @@ togg2.addEventListener("click", () => {
     d2.style.display = "none";
   }
 });
+
+let togg3 = document.getElementById("togg3");
+let d3 = document.getElementById("d3");
+togg3.addEventListener("click", () => {
+  if (getComputedStyle(d3).display != "block") {
+    d3.style.display = "block";
+  } else {
+    d3.style.display = "none";
+  }
+});
+
+let togg4 = document.getElementById("togg4");
+let d4 = document.getElementById("d4");
+togg4.addEventListener("click", () => {
+  if (getComputedStyle(d4).display != "block") {
+    d4.style.display = "block";
+  } else {
+    d4.style.display = "none";
+  }
+});
