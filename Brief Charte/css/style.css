@@ -1,9 +1,13 @@
-header {
+.header {
   top: 0px;
   width: 100%;
-  height: 1em;
+  height: 5em;
   padding-top: 15px;
   padding-bottom: 3px;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  background-color: white;
 }
 .font {
   background-color: gainsboro;
