@@ -7,3 +7,13 @@ togg1.addEventListener("click", () => {
     d1.style.display = "none";
   }
 });
+
+let togg2 = document.getElementById("togg2");
+let d2 = document.getElementById("d2");
+togg2.addEventListener("click", () => {
+  if (getComputedStyle(d2).display != "block") {
+    d2.style.display = "block";
+  } else {
+    d2.style.display = "none";
+  }
+});
