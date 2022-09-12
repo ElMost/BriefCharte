@@ -38,6 +38,21 @@ ul {
 li {
   margin-bottom: 0;
 }
+ul li,
+span {
+  font-weight: 600;
+}
+h1,
+h4 {
+  font-weight: 400;
+}
+.promo {
+  font-weight: 500;
+}
+
+.icone {
+  margin-right: 10px;
+}
 span {
   font-size: 0.5em;
 }
