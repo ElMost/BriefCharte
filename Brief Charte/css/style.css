@@ -9,6 +9,10 @@
   z-index: 1000;
   background-color: white;
 }
+
+h1 {
+  font-size: 2em;
+}
 .font {
   background-color: gainsboro;
   width: 100%;
