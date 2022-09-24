@@ -8,6 +8,7 @@
   top: 0px;
   z-index: 1000;
   background-color: white;
+  box-shadow: 0px 3.5px rgb(50 50 50 / 7%);
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
 .font {
   background-color: rgb(248, 249, 250);
   width: 100%;
-  box-shadow: 0 0 0 5px rgba(50, 50, 50, 0.2);
   margin-top: 4em;
 }
 
@@ -78,7 +78,10 @@ span {
   background-color: white;
   margin-top: -20px;
 }
-
+.shadow {
+  margin-top: 7px;
+  box-shadow: inset 0px 70.7px rgb(50 50 50 / 1%);
+}
 .random {
   text-align: center;
 }
